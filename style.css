@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #e2eeff;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    padding: 20px 35px 20px 90px;
+}
+
+.logo {
+    padding: 25px 35px 20px 0px;
+    width: 120px;
+    height: 48px;
+
+
+}
+
+.text-area {
+    width: 75%;
+    height: 60vh;
+
+}
+
+#texto {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    background: #e2eeff;
+    border: none;
+    font-size: 32px;
+    line-height: 150%;
+    resize: none;
+
+}
+
+#texto::placeholder {
+    color: #0A3871;
+}
+
+#mostrar {
+    position: absolute;
+    width: 20vw;
+    height: 90vh;
+    right: 20px;
+    top: 30px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 14px 32px -5px black;
+
+
+
+}
+
+#img-mostrar {
+    width: 100%;
+    height: auto;
+}
+
+#mostrar h1 {
+    margin: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#mostrar p {
+    margin: 15px;
+    text-align: center;
+}
+
+.results {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.results button {
+    width: 80%;
+    height: 67px;
+    color: #0A3871;
+    background-color: white;
+    border: thin solid #0A3871;
+    margin: 25px auto;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.results .text-result #areaTexto {
+    margin-top: 40px;
+    border: none;
+    resize: none;
+    width: 90%;
+    font-size: 20px;
+}
+
+.acciones {
+
+    bottom: 60px;
+
+}
+
+.acciones span {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.alert {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.encriptar {
+    background: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    color: white;
+    border: #0A3871;
+}
+
+.desencriptar {
+    background: white;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: 2px solid #0A3871;
+}
+
+@media screen and (max-width:912px) {
+
+    .text-area {
+        width: 90%;
+        height: 40vh;
+
+    }
+
+    #texto {
+        width: 70%;
+        height: 30%;
+    }
+
+    .acciones .encriptar,
+    .desencriptar {
+        width: 280px;
+    }
+
+    #mostrar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+
+        position: absolute;
+        width: 70%;
+        height: 20vh;
+        left: 10%;
+        top: 65%;
+
+    }
+
+    #img-mostrar {
+        display: none;
+    }
+
+    .results .text-result #areaTexto {
+        height: auto;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+    main {
+        padding: 20px 20px 20px 45px;
+    }
+    .text-area {
+        width: 90%;
+        height: 27vh;
+
+    }
+
+    #texto {
+        width: 70%;
+        height: 20%;
+        font-size: 16px;
+    }
+    .acciones{
+        width: 100%;
+        
+    }
+    .acciones .encriptar,
+    .desencriptar {
+        width: 330px;
+    }
+
+
+    .acciones form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        
+    }
+}
