@@ -15,4 +15,4 @@ Requisitos:
 
 La página debe tener campos para insertar el texto que será encriptado o desencriptado, y el usuario debe poder elegir entre dos opciones. El resultado debe ser mostrado en la pantalla.
 
-<a href="https://samrx21.github.io/Encriptador/">Visualiza el proyecto</a>
+<a href="https://samrx21.github.io/Encriptador/">Visualiza el proyecto aqui</a>
