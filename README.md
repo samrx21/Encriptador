@@ -5,9 +5,9 @@ La letra "e" es convertida para "enter" La letra "i" es convertida para "imes" L
 
 Requisitos:
 
-Debe funcionar solo con letras minúsculas
-No deben ser utilizadas letras con acentos ni caracteres especiales
-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
-Por ejemplo: "gato" => "gaitober" gaitober" => "gato"
+-Debe funcionar solo con letras minúsculas
+-No deben ser utilizadas letras con acentos ni caracteres especiales
+-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+-Por ejemplo: "gato" => "gaitober" gaitober" => "gato"
 
 La página debe tener campos para insertar el texto que será encriptado o desencriptado, y el usuario debe poder elegir entre dos opciones. El resultado debe ser mostrado en la pantalla.
